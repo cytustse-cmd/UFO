@@ -1,0 +1,43 @@
+ok 1006056 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006056_DOD_111688723.mp4
+ok 1006060 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006060_DOD_111688775.mp4
+ok 1006059 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006059_DOD_111688762.mp4
+ok 1006119 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006119_DOD_111689232.mp4
+ok 1006062 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006062_DOD_111688809.mp4
+ok 1006076 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006076_DOD_111688970.mp4
+ok 1006063 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006063_DOD_111688816.mp4
+ok 1006078 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006078_DOD_111688997.mp4
+ok 1006079 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006079_DOD_111689005.mp4
+ok 1006082 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006082_DOD_111689022.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006056_DOD_111688723.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006059_DOD_111688762.mp4
+ok 1006067 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006067_DOD_111688825.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006060_DOD_111688775.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006062_DOD_111688809.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006063_DOD_111688816.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006067_DOD_111688825.mp4
+ok 1006074 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006074_DOD_111688964.mp4
+ok 1006073 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006073_DOD_111688954.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006076_DOD_111688970.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006078_DOD_111688997.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006079_DOD_111689005.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006082_DOD_111689022.mp4
+ok 1006083 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006083_DOD_111689030.mp4
+skip /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006083_DOD_111689030.mp4
+ok 1006080 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006080_DOD_111689011.mp4
+ok 1006087 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006087_DOD_111689044.mp4
+ok 1006089 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006089_DOD_111689057.mp4
+ok 1006088 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006088_DOD_111689051.mp4
+ok 1006093 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006093_DOD_111689082.mp4
+ok 1006159 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006159_DOD_111689759.mp4
+mv: /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006080_DOD_111689011.mp4.part: No such file or directory
+DL-FAIL 1006080 https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689011/DOD_111689011.mp4
+ok 1006105 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006105_DOD_111689123.mp4
+ok 1006094 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006094_DOD_111689083.mp4
+ok 1006106 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006106_DOD_111689133.mp4
+ok 1006107 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006107_DOD_111689142.mp4
+ok 1006104 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006104_DOD_111689115.mp4
+ok 1006111 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006111_DOD_111689168.mp4
+mv: /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006111_DOD_111689168.mp4.part: No such file or directory
+DL-FAIL 1006111 https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111689168/DOD_111689168.mp4
+ok 1006097 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006097_DOD_111689090.mp4
+ok 1006110 -> /Users/xfurious/conductor/workspaces/ufo/irvine-v1/downloads/video/1006110_DOD_111689167.mp4

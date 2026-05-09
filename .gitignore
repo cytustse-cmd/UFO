@@ -1,0 +1,6 @@
+downloads/pdf/
+downloads/video/
+downloads/other/
+.context/
+.playwright-mcp/
+*.part
