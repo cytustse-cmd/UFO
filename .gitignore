@@ -4,3 +4,6 @@ downloads/other/
 .context/
 .playwright-mcp/
 *.part
+downloads/release-*/pdf/
+downloads/release-*/video/
+downloads/release-*/audio/

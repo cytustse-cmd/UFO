@@ -85,3 +85,35 @@ The `download*` scripts read directly from `data/uap-csv.csv` (the same CSV the 
 - **Verbatim mirror** — files are bit-identical to the originals served by war.gov / DVIDS at capture time.
 - DOW will release additional tranches every few weeks; this repo covers Release 01 only. Future releases will be added as `release-02`, `release-03`, …
 - All materials are U.S. government works in the public domain.
+
+---
+
+## 后续批次（Release 02–07）
+
+> 以上内容全部属于 **Release 01**，保持原样。后续批次各自放在独立的 `release-0N` 目录里，不与 Release 01 混用。
+
+| 批次 | 官方发布日 | 记录数 | 元数据 | 说明 |
+|------|-----------|------:|--------|------|
+| 02 | 2026-05-22 | 64 | [`data/release-02/`](data/release-02) | [RELEASE-02](docs/releases/RELEASE-02.md) |
+| 03 | 2026-06-12 | 72 | [`data/release-03/`](data/release-03) | [RELEASE-03](docs/releases/RELEASE-03.md) |
+| 04 | 2026-07-10 | 40 | [`data/release-04/`](data/release-04) | [RELEASE-04](docs/releases/RELEASE-04.md) |
+| 05 | 2026-08-07 | 41 | [`data/release-05/`](data/release-05) | [RELEASE-05](docs/releases/RELEASE-05.md) |
+| 06 | 2026-09-18 | 75 | [`data/release-06/`](data/release-06) | [RELEASE-06](docs/releases/RELEASE-06.md) |
+| 07 | 2026-10-23 | 28 | [`data/release-07/`](data/release-07) | [RELEASE-07](docs/releases/RELEASE-07.md) |
+
+新增目录结构：
+
+```
+data/release-0N/          ← 该批元数据 CSV 与链接清单（urls_pdf / urls_thumb / urls_img / dvids_video_ids）
+data/all-releases/        ← 官方合并总表（478 行）的副本，仅供对照
+downloads/release-0N/     ← 该批缩略图与图片（img、thumb）
+docs/releases/            ← 每批说明与数据来源（PROVENANCE.md）
+```
+
+注意事项：
+
+- **本仓库只收录元数据、链接、缩略图和图片**。后续批次的 PDF、视频、音频尚未下载，只记录了官方链接；`.gitignore` 已为 `downloads/release-*/pdf|video|audio` 预留。
+- 官方当前的合并总表里，Release 01 为 158 条，而本仓库 `data/uap-csv.csv` 是 5 月 9 日抓取的 161 条，说明官方后来修订过第一批；Release 01 的数据没有改动。
+- Release 06 有 1 张缩略图（`DOW-UAP-D148…`）官方链接返回 404，未能下载。
+- 元数据总表来自第三方镜像站 pursueufotracker.com（与其公布的 war.gov 文件哈希一致），因为 war.gov 对脚本直接访问返回 403。详见 [`docs/releases/PROVENANCE.md`](docs/releases/PROVENANCE.md)。
+- 第 02 批官方还提供了整包压缩包（约 5.26 GiB），见 `data/release-02/cloudfront_uap052226_note.json`，尚未下载。
