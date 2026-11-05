@@ -62,3 +62,13 @@
 - 官方合并 CSV（现名 `uap-data.csv`）：`https://www.war.gov/Portals/1/Interactive/2026/UFO/uap-data.csv`
 - 本机副本校验：SHA-256 `92b3ec7dd87286ea7092a33b476566b4416d3bb02970b02757b237d8322fe81a`（与 pursueufotracker.com 公布的 war.gov 镜像哈希一致，采集于 2026-11-05 Asia/Shanghai）
 - 交叉参考：https://declassifieduap.org/releases 、https://www.bluebook.one/releases 、https://uapledger.com/releases
+
+
+## GitHub Release assets (https://github.com/cytustse-cmd/UFO/releases/tag/release-02)
+
+- Expected primary files (CSV PDF/image links + DVIDS media): **64**
+- Downloaded: **64**; local files incl. thumbnails/modal images: 69 (5.32 GiB)
+- GitHub assets: 69; checksums: `data/release-02/SHA256SUMS.txt`
+- Script: `scripts/release-02/download.sh`
+- Files ≥2 GB are uploaded split (`NAME.part-00`…); rejoin: `cat NAME.part-* > NAME`
+- Not fetched: none

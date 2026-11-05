@@ -117,3 +117,17 @@ docs/releases/            ← 每批说明与数据来源（PROVENANCE.md）
 - Release 06 有 1 张缩略图（`DOW-UAP-D148…`）官方链接返回 404，未能下载。
 - 元数据总表来自第三方镜像站 pursueufotracker.com（与其公布的 war.gov 文件哈希一致），因为 war.gov 对脚本直接访问返回 403。详见 [`docs/releases/PROVENANCE.md`](docs/releases/PROVENANCE.md)。
 - 第 02 批官方还提供了整包压缩包（约 5.26 GiB），见 `data/release-02/cloudfront_uap052226_note.json`，尚未下载。
+
+
+## PURSUE Releases 02–07: GitHub Release assets
+
+Full files (PDF/video/audio/images/thumbnails) are published as GitHub Release assets, separate from Release 01. Download scripts: `scripts/release-0N/download.sh` (method in `scripts/lib/fetch_release.py`). Files ≥2 GB are split as `NAME.part-00`, `NAME.part-01`…; rejoin with `cat NAME.part-* > NAME`.
+
+| Release | Date | CSV rows | Expected primary files | Downloaded | Local files (incl. thumbs/images) | Assets on GitHub | Total size | Missing |
+|---|---|---|---|---|---|---|---|---|
+| [release-02](https://github.com/cytustse-cmd/UFO/releases/tag/release-02) | 2026-05-22 | 64 | 64 | 64 | 69 | 69 | 5.32 GiB | 0 |
+| [release-03](https://github.com/cytustse-cmd/UFO/releases/tag/release-03) | 2026-06-12 | 72 | 72 | 72 | 145 | 126 | 5.58 GiB | 0 |
+| [release-04](https://github.com/cytustse-cmd/UFO/releases/tag/release-04) | 2026-07-10 | 40 | 40 | 40 | 60 | 54 | 4.00 GiB | 0 |
+| [release-05](https://github.com/cytustse-cmd/UFO/releases/tag/release-05) | 2026-08-07 | 41 | 41 | 41 | 69 | 63 | 0.64 GiB | 0 |
+| [release-06](https://github.com/cytustse-cmd/UFO/releases/tag/release-06) | 2026-09-18 | 75 | 75 | 75 | 133 | 133 | 3.49 GiB | 0 |
+| [release-07](https://github.com/cytustse-cmd/UFO/releases/tag/release-07) | 2026-10-23 | 28 | 28 | 28 | 56 | 56 | 0.31 GiB | 0 |
